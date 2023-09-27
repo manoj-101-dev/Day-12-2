@@ -1,0 +1,72 @@
+.container{
+    border: 3px solid black;
+    height: 600px;
+    width: 800px;
+    margin: auto;
+    background-color: aquamarine;
+    margin-top: 40px;
+    
+}
+.eve{
+    text-align: center;
+    font-style: oblique;
+}
+.body{
+    border: 3px solid black;
+    background-color:#c2e9a8 ;
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: flex;
+}
+#box{
+    flex: 1;
+    border: 2px solid black;
+   height: 100px;
+    max-width: 100px;
+    margin: 30px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    background-color: beige;
+
+    }
+
+.content{
+    display: flex ;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 30px;
+    gap: 1rem;
+    margin-top: 70px;
+    }
+    
+ .btn{
+    border-radius: 4px;
+     margin-top: 30px; 
+     cursor: pointer;
+    margin-left: 100px;
+    padding: 5px;
+    background-color: darkcyan;
+    color: whitesmoke;
+ }      
+.btn1{
+    border-radius: 4px;
+     margin-top: 10px; 
+     cursor: pointer;
+    padding: 5px;
+    margin-left: 50px;
+    background-color: darkcyan;
+    color: whitesmoke;
+}  
+label{
+    width: 200px;
+    display: inline-block;
+    }
+
+
+button:hover{
+    background-color: blue;
+}
